@@ -1,0 +1,70 @@
+You should be able to create and navigate to subdirectories easily using command line or your file explorer. Let’s make sure you’re able to do that smoothly. Here are the steps to create a subdirectory and save the file there:
+
+### **Step-by-Step Guide**
+
+### **Using Command Line**:
+
+1. **Navigate to Your Main Directory**:
+   - Open your terminal or command prompt.
+   - Navigate to the directory where you want to create the subdirectory. For example:
+     ```bash
+     cd VisionGlove/C++
+     ```
+
+2. **Create the Subdirectory**:
+   - Use the `mkdir` command to create a new subdirectory. For example:
+     ```bash
+     mkdir haptic_feedback
+     ```
+
+3. **Navigate to the Subdirectory**:
+   - Move into the newly created subdirectory:
+     ```bash
+     cd haptic_feedback
+     ```
+
+4. **Create and Open the File**:
+   - You can use a text editor to create and open the file. For example, using `nano`:
+     ```bash
+     nano main.cpp
+     ```
+   - Paste the C++ code into this file and save it.
+
+### **Using a File Explorer**:
+
+1. **Navigate to Your Main Directory**:
+   - Open your file explorer.
+   - Navigate to the directory where you want to create the subdirectory.
+
+2. **Create the Subdirectory**:
+   - Right-click in the directory.
+   - Select "New" > "Folder."
+   - Name the new folder (e.g., `haptic_feedback`).
+
+3. **Create the File**:
+   - Navigate into the `haptic_feedback` folder.
+   - Right-click and select "New" > "Text Document."
+   - Name the file `main.cpp` (ensure the file extension is `.cpp`).
+   - Open the file with a text editor and paste the C++ code into it.
+   - Save the file.
+
+### **Summary of Directory Structure**:
+
+After following the steps, your directory structure should look like this:
+
+```
+VisionGlove/
+└── C++
+    └── haptic_feedback
+        └── main.cpp
+```
+
+### **What to Do If You Encounter Issues**:
+
+1. **Check Permissions**:
+   - Ensure you have the necessary permissions to create directories and files in the desired location.
+
+2. **Correct File Naming**:
+   - Make sure the file extension is correct (`main.cpp`).
+   - Avoid using spaces or special characters in directory and file names.
+
